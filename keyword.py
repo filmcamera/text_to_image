@@ -5,7 +5,7 @@ download('punkt')
 from nltk import *
 
 # .txt 파일을 string으로 저장, 줄 바꿈은 공백으로 대체
-with open('2.txt', 'r') as file:
+with open('1.txt', 'r') as file:
     txt = file.read().replace('\n', ' ')
 
 # 모두 소문자로 변경
